@@ -1,3 +1,4 @@
+# config.mk
 #
 # Copyright (C) 2022 The Android Open Source Project
 # Copyright (C) 2022 SebaUbuntu's TWRP device tree generator
@@ -22,6 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := HT_8MZ
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
+#BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
 BOARD_SYSTEMIMAGE_PARTITION_TYPE := ext4
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -54,9 +56,10 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # Set FSTAB
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # TWRP Configuration
+TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
@@ -69,5 +72,4 @@ TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backl
 TW_MAX_BRIGHTNESS := 255
 TW_NO_BATT_PERCENT := true
 TW_DEFAULT_BRIGHTNESS := 80
-TWRP_INCLUDE_LOGCAT := true
 RECOVERY_SDCARD_ON_DATA := true
