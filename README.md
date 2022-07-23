@@ -11,7 +11,7 @@
 - [x] Storage: 16GB
 - [x] microSD card support
 
-### system.prop
+### In system.prop
 ```
 ro.product.brand=Hometech
 ro.product.name=HT_8MZ
@@ -20,7 +20,7 @@ ro.build.product=tb8163p3_bsp
 ro.treble.enabled=true
 ```
 
-#### recovery partitions
+### In recovery partitions
 ```
 /system          ext4     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system       flags=display=system
 /vendor          ext4     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/vendor       flags=display=vendor
