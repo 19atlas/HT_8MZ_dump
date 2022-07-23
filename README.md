@@ -21,7 +21,8 @@ ro.treble.enabled=true
 ```
 
 #### recovery partitions
-||/system          ext4     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system       flags=display=system
+```
+/system          ext4     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system       flags=display=system
 /vendor          ext4     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/vendor       flags=display=vendor
 /odmdtbo         emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/odmdtbo      flags=display=odmdtbo
 /data            f2fs     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/userdata     flags=display=data
@@ -43,4 +44,5 @@ auto             vfat     /devices/soc/11270000.usb*                            
 /tee1            emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee1         flags=display=tee1
 /tee2            emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/tee2         flags=display=tee2
 /kb              emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/kb           flags=display=kb
-/dkb             emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/dkb          flags=display=dkb||
+/dkb             emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/dkb          flags=display=dkb
+```
