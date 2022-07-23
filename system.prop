@@ -1,0 +1,5 @@
+ro.product.brand=Hometech
+ro.product.name=HT_8MZ
+ro.product.device=HT_8MZ
+ro.build.product=tb8163p3_bsp
+ro.treble.enabled=true

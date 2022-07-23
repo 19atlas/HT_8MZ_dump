@@ -21,6 +21,7 @@ PRODUCT_NAME := omni_HT_8MZ
 PRODUCT_BRAND := Hometech
 PRODUCT_MODEL := HT_8MZ
 PRODUCT_MANUFACTURER := hometech
+PRODUCT_RELEASE_NAME := hometech ht 8mz
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
