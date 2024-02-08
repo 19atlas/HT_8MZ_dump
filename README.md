@@ -16,9 +16,9 @@
 - [x] microSD card support
 
 ## changed_ROM directory
-`lk.bin` removed mediatek orange and red warnings
-`magisk_patchedboot-27000_tGZOA.img` magisk patched boot version is
-`runwelltwrp.img` this is twrp port of device. (thanks for hovatek)
+`lk.bin` removed mediatek orange and red warnings <br>
+`magisk_patchedboot-27000_tGZOA.img` magisk patched boot version is <br>
+`runwelltwrp.img` this is twrp port of device. (thanks for hovatek) <br>
 
 ### In system.prop
 ```
