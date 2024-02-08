@@ -17,7 +17,7 @@
 
 ## changed_ROM directory
 `lk.bin` removed mediatek orange and red warnings <br>
-`magisk_patchedboot-27000_tGZOA.img` magisk patched boot version is <br>
+`magisk_patchedboot-27000_tGZOA.img` magisk patched boot (ver. v27.0)<br>
 `runwelltwrp.img` this is twrp port of device. (thanks for hovatek) <br>
 
 ### In system.prop
