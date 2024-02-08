@@ -5,11 +5,20 @@
 
 ## Tablet özellikleri /HT_8MZ
 - [x] Android: 8.1 Oreo GO edition
-- [x] CPU: MediaTek MT8163
+- [x] CPU: MediaTek mt8163
+- [x] Core architecture 4x ARM Cortex-A53 @ 1300 MHz
 - [x] Screen: 1280 x 800
-- [x] Ram: 1GB
-- [x] Storage: 16GB
+- [x] GPU Renderer: Mali-T720
+- [x] xdpi/ydpi 160/160 dpi
+- [x] Ram: ~1GB (969 MB)
+- [x] Bluetooth: 4+
+- [x] Storage: 16GB (12,57 GB usable)
 - [x] microSD card support
+
+## changed_ROM directory
+`lk.bin` removed mediatek orange and red warnings
+`magisk_patchedboot-27000_tGZOA.img` magisk patched boot version is
+`runwelltwrp.img` this is twrp port of device. (thanks for hovatek)
 
 ### In system.prop
 ```
