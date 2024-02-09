@@ -1,5 +1,7 @@
 # twrp_device_HT_8MZ
 
+<h1>UYARI cihazınıza olacak herhangi bir arızanın sorumlu değilim. LÜTFEN oluşucak riskleri göze alıyorsanız devam edin</h1>
+
   <img src="https://cdn.dsmcdn.com/ty101/product/media/images/20210406/09/f0c1a39d/64964522/2/2_org_zoom.jpg" width="250" height="400" />
 
 
