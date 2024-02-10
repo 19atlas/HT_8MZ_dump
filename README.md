@@ -20,7 +20,7 @@
 ## changed_ROM directory
 `lk.bin` removed mediatek orange and red warnings <br>
 `magisk_patchedboot-27000_tGZOA.img` magisk patched boot (ver. v27.0)<br>
-`runwelltwrp.img` this is twrp port of device. (thanks for hovatek) <br>
+`recoverytwrp.img` this is twrp port of device. (thanks for hovatek) <br>
 
 ### In system.prop
 ```
@@ -32,6 +32,9 @@ ro.treble.enabled=true
 ```
 
 ### In recovery partitions
+<h3>warning change `mtk-msdc.0/11230000.MSDC0` to `soc` or `bootdevice` for twrp!!</h3>
+<h4>that is original text:</h4>
+
 ```
 /system          ext4     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system       flags=display=system
 /vendor          ext4     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/vendor       flags=display=vendor
