@@ -16,7 +16,7 @@
 - [x] Bluetooth: 4+
 - [x] Storage: 16GB (12,57 GB usable)
 - [x] microSD card support
-
+- cmdline: `bootopt=64S3,32N2,32N2 buildvariant=user`
 ## changed_ROM directory
 `lk.bin` removed mediatek orange and red warnings <br>
 `magisk_patchedboot-27000_tGZOA.img` magisk patched boot (ver. v27.0)<br>
