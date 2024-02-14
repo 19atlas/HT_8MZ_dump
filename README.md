@@ -17,7 +17,8 @@
 - [x] Storage: 16GB (12,57 GB usable)
 - [x] microSD card support
 - cmdline: `bootopt=64S3,32N2,32N2 buildvariant=user`
-## changed_ROM directory
+
+## changed_ROM klasöründe
 `lk.bin` removed mediatek orange and red warnings <br>
 `magisk_patchedboot-27000_tGZOA.img` magisk patched boot (ver. v27.0)<br>
 `recoverytwrp.img` this is twrp port of device. (thanks for hovatek) <br>
@@ -60,6 +61,20 @@ auto             vfat     /devices/soc/11270000.usb*                            
 /kb              emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/kb           flags=display=kb
 /dkb             emmc     /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/dkb          flags=display=dkb
 ```
+## recovery.fstab
+```
+/boot         emmc    /dev/block/bootdevice/by-name/boot
+/recovery     emmc    /dev/block/bootdevice/by-name/recovery
+/nvram        emmc    /dev/block/bootdevice/by-name/nvram
+/cache        ext4    /dev/block/soc/by-name/cache
+/system       ext4    /dev/block/bootdevice/by-name/system
+/data         f2fs    /dev/block/bootdevice/by-name/userdata   length=-16384 flags=encryptable=/dev/block/bootdevice/by-name/metadata
+/bootloader       emmc    /dev/block/platform/bootdevice/by-name/lk     flags=display="lk"
+
+/extSdCard    auto    /dev/block/mmcblk1p1           flags=display="MicroSD card";storage;wipeingui;removable
+/usb-otg      auto    /dev/block/sda1                    flags=display="USB drive";storage;wipeingui;removable
+```
+
 ## ...Android_Scatter.txt
 ```
 #########################################__WwR_MTK_2.50__###################################################
