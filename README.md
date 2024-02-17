@@ -75,6 +75,22 @@ auto             vfat     /devices/soc/11270000.usb*                            
 /usb-otg      auto    /dev/block/sda1                    flags=display="USB drive";storage;wipeingui;removable
 ```
 
+## comandline full (from device info HW)
+```
+console=tty0 console=ttyMT0,921600n1
+earlycon=uart8250, mmio32, 0x11002000
+vmalloc=496M androidboot.hardware=mt8163
+firmware_class.path=/vendor/firmware root=/
+dev/ram androidboot.verifiedbootstate=orange
+bootopt=64S3,32N2,32N2 buildvariant=user
+androidboot.veritymode=enforcing printk.disable_uart=1
+bootprof.pl_t=1235 bootprof.lk_t=7597
+boot reason=0 androidboot. serialno=61192703221
+androldboot. bootreason=power ukey mrdump, ddrsv=no
+mroumd rsvmem= 0x56000000, 0x400000, 0x42000000, 0x179
+fc0,0x54000000, 0x80000
+```
+
 ## ...Android_Scatter.txt
 ```
 #########################################__WwR_MTK_2.50__###################################################
