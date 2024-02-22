@@ -16,6 +16,7 @@
 - [x] Bluetooth: 4+
 - [x] Storage: 16GB (12,57 GB usable)
 - [x] microSD card support
+- [x] Linux ver. 3.18.79 (gcc ver 6.3.1)  
 - cmdline: `bootopt=64S3,32N2,32N2 buildvariant=user`
 
 ## changed_ROM klasöründe
